@@ -40,7 +40,8 @@ function App() {
               <Route path="/" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogDetails />} /> {/* Dynamic route for details */}
               <Route path="/addblog" element={<AddBlog />} />
-              {/* <Route path="/*" element={<notfound/>}/> yo chai notfound ko code ho  */}
+              <Route path="/*" element={<notfound/>}/> 
+              {/* / yo chai notfound ko code ho  */}
 
             </Routes>
           

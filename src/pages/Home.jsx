@@ -23,7 +23,7 @@ function Home() {
   });
 };
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-600 py-10 mt-15">
+    <div className="min-h-screen bg-gradient-to-r from-cream-500 to-blue-900 py-10 mt-15">
       {/* Page Heading */}
       <div className="text-center mb-10">
         <h1 className="text-5xl font-extrabold text-white drop-shadow-lg">
@@ -62,4 +62,4 @@ function Home() {
 }
 
 export default Home;
-// className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4"
+// className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4" make the tcss better

@@ -36,7 +36,7 @@ function Login() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 to-purple-600">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-cream-500 to-blue-900 ">
       <div className="bg-white shadow-xl rounded-lg p-8 w-96">
         <h1 className="text-3xl font-bold text-center text-gray-700 mb-6">Login</h1>
         <form onSubmit={handleRegister} className="flex flex-col gap-6">

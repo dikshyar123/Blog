@@ -32,13 +32,13 @@ function Blog() {
   };
 
   return (
-    <div className=" min-h-screen bg-gradient-to-r from-green-400 to-blue-500 py-5 mt-10" >
+    <div className=" min-h-screen bg-gradient-to-r from-cream-500 to-blue-900 py-5 mt-10" >
       
     <div className=" shadow-xl rounded-2xl p-8 text-center ">
-      <h2 className="text-2xl font-extrabold text-blue-600">Welcome to the Blog</h2>
+      <h2 className="text-4xl font-extrabold text-white">Welcome to the Blog</h2>
       <button
         onClick={() => navigate("/addblog")}
-        className=" mt-4 mb-4 px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition-all"
+        className=" mt-4 mb-4 px-6 py-2  bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition-all"
       >
         Add Blog
       </button>

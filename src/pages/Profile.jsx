@@ -23,7 +23,7 @@ function Profile() {
   }, []);
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500">
+    <div className= " flex justify-center min-h-screen bg-gradient-to-r from-cream-500 to-blue-900 py-10 mt-15">
       <div className="bg-white shadow-lg rounded-lg p-6 w-80 sm:w-96 text-center transform transition-all hover:scale-105 hover:shadow-2xl">
         <h2 className="text-2xl font-bold text-purple-600">Welcome to Your Profile</h2>
         <p className="text-gray-600 mt-2">This is your colorful profile page.</p>

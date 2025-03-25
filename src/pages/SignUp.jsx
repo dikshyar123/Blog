@@ -37,7 +37,7 @@ function SignUp() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-teal-400">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-cream-500 to-blue-900 ">
       <div className="bg-white shadow-xl rounded-lg p-8 w-96">
         <h1 className="text-3xl font-semibold text-center text-gray-700 mb-6">Sign Up</h1>
         <form onSubmit={handleRegister} className="flex flex-col gap-6">

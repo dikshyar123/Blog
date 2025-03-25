@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50 px-8 py-4 flex justify-between items-center">
       {/* Logo */}
-      <h1 className="text-2xl font-bold text-red-500">Logo</h1>
+      <img src="/g.png" alt="Logo" className=" h-10 w-auto" />
 
       {/* Navigation Links */}
       <div className="flex gap-8">
